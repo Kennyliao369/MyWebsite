@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .myTable tr:first-child th {
+    background-color: #cccccc;
+  }
+  .myTable th[scope="row"] {
+    background-color: #cccccc;
+  }
+</style>
+</head>
+<body>
+  <table class="myTable">
+    <tr>
+      <th></th>
+      <th scope="col">Monday</th>
+      <th scope="col">Tuesday</th>
+      <th scope="col">Wednesday</th>
+    </tr>
+    <tr>
+      <th scope="row">1pm</th>
+      <th rowspan="2" bgcolor="yellow">Math</th>
+      <th>Science</th>
+      <th rowspan="3" bgcolor="red">Art</th>
+    </tr>
+    <tr>
+      <th scope="row">2pm</th>
+      <th>Science</th>
+    </tr>
+    <tr>
+      <th scope="row">3pm</th>
+      <th rowspan="2" bgcolor="blue">Science</th>
+      <th>Reading</th>
+    </tr>
+    <tr>
+      <th scope="row">4pm</th>
+      <th>Science</th>
+      <th bgcolor="green">Reading</th>
+    </tr>
+
+  </table>
+</body>
+</html>
